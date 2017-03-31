@@ -41,7 +41,7 @@ class ZabbixGraphTest extends TestCase
     {
         $image = $this->zabbixGraph->find(123);
 
-        $this->assertEquals("image", $image);
+        $this->assertEquals('image', $image);
         $this->assertRequestHasField('graphid', 123);
         $this->assertRequestHasField('width', 400);
         $this->assertRequestHasField('height', 200);
@@ -107,11 +107,11 @@ class ZabbixGraphTest extends TestCase
 
     private function setUpMocks()
     {
-        $this->zabbixGraph->httpClient()->shouldReceive("get")
+        $this->zabbixGraph->httpClient()->shouldReceive('get')
             ->andReturn($response = Mockery::mock(ResponseInterface::class));
-        $response->shouldReceive("getBody")
+        $response->shouldReceive('getBody')
             ->andReturn($message = Mockery::mock(MessageInterface::class));
-        $message->shouldReceive("getContents")
-            ->andReturn("image");
+        $message->shouldReceive('getContents')
+            ->andReturn('image');
     }
 }
