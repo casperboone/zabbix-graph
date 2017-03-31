@@ -66,7 +66,8 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ``` bash
 $ composer test
 ```
-//ADD ENV NOTE
+
+One of the integration tests requires a non public Zabbix installation. In order to execute this test, you have to create a `.env` file in the project root and copy the contents of `.env.example` into it. Complete the `.env` file with the host, a username/password and an available graph ID.
 
 ## Contributing
 
