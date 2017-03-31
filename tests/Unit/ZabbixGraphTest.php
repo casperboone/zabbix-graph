@@ -101,6 +101,7 @@ class ZabbixGraphTest extends TestCase
         $this->zabbixGraph->httpClient()->shouldHaveReceived($method)
             ->with(Mockery::any(), Mockery::on(function ($options) use ($requestDataKey, $key, $value) {
                 $this->assertEquals($value, $options[$requestDataKey][$key]);
+
                 return true;
             }));
     }
