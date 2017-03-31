@@ -4,7 +4,7 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![StyleCI](https://styleci.io/repos/86865582/shield)](https://styleci.io/repos/86865582)
 [![Build Status](https://img.shields.io/travis/casperboone/zabbix-graph/master.svg?style=flat-square)](https://travis-ci.org/casperboone/zabbix-graph)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/09228096-56d8-4618-93a0-92bacc86a0c9.svg?style=flat-square)](https://insight.sensiolabs.com/projects/09228096-56d8-4618-93a0-92bacc86a0c9)
 [![Quality Score](https://img.shields.io/scrutinizer/g/casperboone/zabbix-graph.svg?style=flat-square)](https://scrutinizer-ci.com/g/casperboone/zabbix-graph)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/casperboone/zabbix-graph/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/casperboone/pushover/?branch=master)
 
