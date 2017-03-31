@@ -14,6 +14,7 @@ class TestCase extends PHPUnitTestCase
             (new Dotenv(__DIR__.'/../'))->load();
         } catch (InvalidPathException $exception) {
             $this->markTestSkipped($absentEnvMessage ?? 'Env file not present');
+
             return;
         }
     }

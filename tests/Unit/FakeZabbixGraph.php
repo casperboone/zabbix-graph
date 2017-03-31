@@ -16,6 +16,7 @@ class FakeZabbixGraph extends ZabbixGraph
     protected function createHttpClient($url)
     {
         $this->url = $url;
+
         return Mockery::spy(\GuzzleHttp\ClientInterface::class);
     }
 
