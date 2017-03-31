@@ -42,7 +42,8 @@ class ZabbixGraph
      * @param  string  $url  Full url of Zabbix location
      * @return HttpClient
      */
-    protected function createHttpClient($url) {
+    protected function createHttpClient($url)
+    {
         return new HttpClient([
             'base_uri' => $url,
             'cookies' => true,
@@ -67,7 +68,7 @@ class ZabbixGraph
                 'height' => $this->height,
                 'stime' => $this->startTime->getTimestamp(),
                 'period' => $this->endTime->getTimestamp() - $this->startTime->getTimestamp(),
-            ]
+            ],
         ])->getBody()->getContents();
     }
 
@@ -81,7 +82,7 @@ class ZabbixGraph
                 'name' => $this->username,
                 'password' => $this->password,
                 'enter' => 'Sign in',
-            ]
+            ],
         ]);
     }
 

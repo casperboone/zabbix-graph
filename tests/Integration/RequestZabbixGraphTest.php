@@ -26,7 +26,7 @@ class RequestZabbixGraphTest extends TestCase
     /** @test */
     public function a_graph_can_be_requested_from_a_non_public_zabbix_installation()
     {
-        $this->loadenv("Integration test with non public Zabbix installation not executed because .env file is not present");
+        $this->loadenv('Integration test with non public Zabbix installation not executed because .env file is not present');
 
         $zabbixGraph = new ZabbixGraph(
             getenv('NON_PUBLIC_ZABBIX_HOST'),
@@ -47,7 +47,7 @@ class RequestZabbixGraphTest extends TestCase
 
     private function imageMetaData($binaryImage)
     {
-        $tempFile = tempnam("/tmp", "image");
+        $tempFile = tempnam('/tmp', 'image');
 
         $fileHandle = fopen($tempFile, 'w');
         fwrite($fileHandle, $binaryImage);

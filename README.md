@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/casperboone/zabbix-graph.svg?style=flat-square)](https://packagist.org/packages/casperboone/zabbix-graph)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![StyleCI](https://styleci.io/repos/xxxxxxxxx/shield)](https://styleci.io/repos/xxxxxxxxx)
+[![StyleCI](https://styleci.io/repos/86865582/shield)](https://styleci.io/repos/86865582)
 [![Build Status](https://img.shields.io/travis/casperboone/zabbix-graph/master.svg?style=flat-square)](https://travis-ci.org/casperboone/zabbix-graph)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/xxxxxxxxx.svg?style=flat-square)](https://insight.sensiolabs.com/projects/xxxxxxxxx)
 [![Quality Score](https://img.shields.io/scrutinizer/g/casperboone/zabbix-graph.svg?style=flat-square)](https://scrutinizer-ci.com/g/casperboone/zabbix-graph)
@@ -66,6 +66,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ``` bash
 $ composer test
 ```
+ADD ENV NOTE
 
 ## Contributing
 
