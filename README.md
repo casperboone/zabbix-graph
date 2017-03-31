@@ -66,7 +66,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ``` bash
 $ composer test
 ```
-ADD ENV NOTE
+//ADD ENV NOTE
 
 ## Contributing
 
