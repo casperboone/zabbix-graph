@@ -6,7 +6,7 @@
 [![Build Status](https://img.shields.io/travis/casperboone/zabbix-graph/master.svg?style=flat-square)](https://travis-ci.org/casperboone/zabbix-graph)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/09228096-56d8-4618-93a0-92bacc86a0c9.svg?style=flat-square)](https://insight.sensiolabs.com/projects/09228096-56d8-4618-93a0-92bacc86a0c9)
 [![Quality Score](https://img.shields.io/scrutinizer/g/casperboone/zabbix-graph.svg?style=flat-square)](https://scrutinizer-ci.com/g/casperboone/zabbix-graph)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/casperboone/zabbix-graph/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/casperboone/pushover/?branch=master)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/casperboone/zabbix-graph/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/casperboone/zabbix-graph/?branch=master)
 
 Get a graph from Zabbix to display on a webpage or save to a file. If you are using Laravel, then please check out [this repository](https://github.com/casperboone/laravel-zabbix-graph). 
 
